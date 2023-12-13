@@ -8,7 +8,7 @@ const Header = () => {
         <h1 className='logo' id='regular'>preto</h1>
         <div className="header-links">
             <div className="sub-links">
-                <h2 id='thin'>endereco</h2>
+                <h2 id='thin'>endereço</h2>
                 <h2 id='light'>·</h2>
                 <h2 id='thin'>menu</h2>
             </div>

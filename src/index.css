@@ -49,6 +49,12 @@ code {
     monospace;
 }
 
+.linha{
+  width: 100%;
+  border: 2px solid black;
+  padding: 0 10vw ;
+}
+
 #thin {
   font-weight: 100;
 }

@@ -18,7 +18,7 @@
 
 .slogan-div{
     background-color: #333333e0;
-    width: 25vw;
+    width: 400px;
     margin: -25vh 10vw;
     position: absolute;
     padding: 0 2vw;
@@ -28,5 +28,27 @@
     font-size: 2.5em;
     color: #fff;
     text-transform: uppercase;
-    
+}
+
+.home-top{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 15vh 4vw;
+}
+
+.sobre{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(1em * 1.5);
+    text-align: center;
+    line-height: 2;
+}
+
+.sobre h1{
+    text-transform: uppercase;
+    margin: 0;
 }
