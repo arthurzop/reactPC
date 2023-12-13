@@ -1,18 +1,22 @@
 import React from 'react'
 import "./components.css"
 
-export const Header = () => {
+const Header = () => {
   return (
     <>
     <div className="header-container">
-        <h1>preto</h1>
+        <h1 className='logo' id='regular'>preto</h1>
         <div className="header-links">
-            <h2>endereco</h2>
-            <h2>·</h2>
-            <h2>menu</h2>
-            <h2>reservar</h2>
+            <div className="sub-links">
+                <h2 id='thin'>endereco</h2>
+                <h2 id='light'>·</h2>
+                <h2 id='thin'>menu</h2>
+            </div>
+            <h2 className='reservar' id='light'>reservar</h2>
         </div>
     </div>
     </>
   )
 }
+
+export default Header;
