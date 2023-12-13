@@ -32,17 +32,20 @@ export const Home = () => {
               Rodrigo Freire, e temos a<span id="medium">sustentabilidade</span>
               e a <span id="medium">baianidade nagô</span>como nossos pilares.
               Abrimos as portas para uma culinária que mistura os sabores da
-              <span id="medium">África</span> e
-              <span id="medium">Portugal</span>, mas sempre com o nosso sotaque
-              baiano. Vimos uma oportunidade de oferecer ao coração de São Paulo
-              nossos sabores favoritos, em uma comida
+              <span id="medium">África</span> e<span id="medium">Portugal</span>
+              , mas sempre com o nosso sotaque baiano. Vimos uma oportunidade de
+              oferecer ao coração de São Paulo nossos sabores favoritos, em uma
+              comida
               <span id="medium">vibrante</span> para ser apreciada sem pressa.
               Na nossa casa, a famosa “loucura paulistana” fica do lado de fora.
             </h3>
           </div>
         </div>
-        <div className="linha"></div>
-        <h1>endereço</h1>
+        <hr className="linha" />
+        <h1 className="endereco" id="extrabold">
+          endereço
+        </h1>
+
         <div className="home-bot">
           <h1>Rua Fradique Coutinho, 276 Pinheiros, São Paulo - SP</h1>
           <img src={fachada} />

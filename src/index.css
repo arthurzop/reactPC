@@ -50,9 +50,8 @@ code {
 }
 
 .linha{
-  width: 100%;
+  width: 90%;
   border: 2px solid black;
-  padding: 0 10vw ;
 }
 
 #thin {
