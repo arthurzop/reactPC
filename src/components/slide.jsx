@@ -26,6 +26,7 @@ const Slide = () => {
           <Swiper
             speed="400"
             loop={true}
+            autoplay={true}
             slides-per-view="1"
             className="swiper-wrapper"
             modules={[Pagination]}

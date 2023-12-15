@@ -1,5 +1,4 @@
 /* --------------------------Header------------------------------------ */
-
 .header-container {
   display: flex;
   justify-content: space-between;
@@ -83,46 +82,41 @@
 /* --------------------------Slider------------------------------------ */
 
 .horarios-container {
-  z-index: 0;
-
   width: 50%;
-
   text-align: center;
-  
+  margin-right: -8vw;
 }
 
-.horarios-txt{
-    background-color: rgba(255, 255, 255, 0.29);
-    padding: 8vh 0vh;
-    border-radius: 0 0 6px 6px;
-    width: 30vw;
-    margin: 0 auto;
+.horarios-txt {
+  background-color: rgba(255, 255, 255, 0.29);
+  padding: 8vh 0vh;
+  border-radius: 0 0 6px 6px;
+  width: 30vw;
+  margin: 0 auto;
 
-    text-transform: uppercase;
-    text-align: justify center;
-    box-shadow: 5px 5px 10px 2px #70707044;
-
+  text-transform: uppercase;
+  text-align: justify center;
+  box-shadow: 5px 5px 10px 2px #70707044;
 }
-.swiper{
-    margin: 0;
-    padding: 0;
-}
-
-.horarios-txt h1{
-    margin-top: -3vh;
-    padding-bottom: 2vh;
-    font-size: 2.2em;
+.swiper {
+  margin: 0;
+  padding: 0;
 }
 
-.horarios-txt h3{
-    font-size: 1.5em;
+.horarios-txt h1 {
+  margin-top: -3vh;
+  padding-bottom: 2vh;
+  font-size: 2.2em;
+}
+
+.horarios-txt h3 {
+  font-size: 1.5em;
 }
 
 .swiper img {
   width: 30vw;
   height: 42vh;
   box-shadow: 5px 5px 10px 2px #70707044;
-
 }
 
 .swiper,
@@ -132,5 +126,3 @@ img {
   z-index: 0;
   margin: 0;
 }
-
-
