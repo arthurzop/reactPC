@@ -82,47 +82,43 @@
 /* --------------------------Slider------------------------------------ */
 
 .horarios-container {
-  width: 50%;
   text-align: center;
-  margin-right: -8vw;
 }
 
 .horarios-txt {
   background-color: rgba(255, 255, 255, 0.29);
   padding: 8vh 0vh;
   border-radius: 0 0 6px 6px;
-  width: 30vw;
-  margin: 0 auto;
+  width: 40vw;
+  margin: -2vh auto;
 
   text-transform: uppercase;
-  text-align: justify center;
   box-shadow: 5px 5px 10px 2px #70707044;
 }
-.swiper {
-  margin: 0;
-  padding: 0;
+
+.horarios{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 3vw;
+}
+
+.horarios h3{
+  font-weight: 400;
 }
 
 .horarios-txt h1 {
   margin-top: -3vh;
   padding-bottom: 2vh;
-  font-size: 2.2em;
+  font-size: 3em;
 }
 
 .horarios-txt h3 {
-  font-size: 1.5em;
+  font-size: 1.8em;
 }
 
-.swiper img {
-  width: 30vw;
-  height: 42vh;
+.horarios-container img {
+  width: 40vw;
+  height: 50vh;
   box-shadow: 5px 5px 10px 2px #70707044;
 }
 
-.swiper,
-.swiper-wrapper,
-.swiper-slide,
-img {
-  z-index: 0;
-  margin: 0;
-}

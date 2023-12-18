@@ -19,7 +19,7 @@
 
 .slogan-div {
   background-color: #333333e0;
-  width: 400px;
+  width: 500px;
   margin: -25vh 10vw;
   position: absolute;
   padding: 0 2vw;
@@ -33,14 +33,16 @@
 
 .home-top {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
+  gap: 5vw;
   align-items: center;
-  margin: 15vh 2vw 15vh -4vw;
+  margin: 15vh 0;
 }
 
 .sobre {
-  width: 30%;
-  margin: 0 4vw 0 0;
+  width: 621px;
+  height: 837px;
+  flex-shrink: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -55,8 +57,8 @@
   font-size: 3em;
 }
 
-.sobre h3{
-  font-size: 1.5em;
+.sobre h3 {
+  font-size: 1.8em;
 }
 
 .endereco {
@@ -78,8 +80,8 @@
 .home-bot h1 {
   background-color: #333333e0;
   color: #fff;
-  width: 600px;
-  margin: 0 10vw;
+  width: 50vw;
+  margin: 0 5vw;
   position: absolute;
   padding: 2vh 2vw;
 }
@@ -87,4 +89,11 @@
 .home-bot img {
   width: 100%;
   margin: 3vh 0 -1vh 0;
+}
+
+#link{
+  width: 20px;
+  margin: auto;
+  padding: 2px;
+  background-color: #ffffffe0;
 }
